@@ -6,7 +6,7 @@ function fn1(){
 	let n =Math.floor(randomNum);
 	document.getElementById('num').innerText = n;
 	let guessnum = document.getElementById('guess');
-	if(guessnum.value>-20&&guessnum.value<20){
+	if(guessnum.value>min&&guessnum.value<max){
 		document.getElementById("respond").innerText="Hot";
 	}
 	else{
